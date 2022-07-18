@@ -1,0 +1,39 @@
+h1{
+    padding-left: 1rem;
+    color: #83EBCC;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6rem; /*--70px;*/
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+/*
+.histlab { background-color: #ABCFF2; }
+.formacion { background-image: linear-gradient(#ABCFF2, #1260AF); }
+.skills { background-color: #1260AF; }*/
+
+.aside{ 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0,5rem;
+    background-image: linear-gradient(#3B8972,#83EBCC); 
+    float: left;
+    width: 19%
+}
+
+.section1{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0,5rem;
+    background-image: linear-gradient(#ABCFF2, #1260AF);
+    float: left;
+    width: 75%
+}
+
+/* .nav{ background-color: #33475b; } */
