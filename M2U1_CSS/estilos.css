@@ -1,0 +1,65 @@
+h1{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin: 0px;
+    color: #0b051b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6rem; /*--70px;*/
+    
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
+
+/*
+.histlab { background-color: #ABCFF2; }
+.formacion { background-image: linear-gradient(#ABCFF2, #1260AF); }
+.skills { background-color: #1260AF; }*/
+.resumenProf{
+    column-count:2;
+    /* @import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap'); */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.encabezado{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cedbe9+0,aac5de+17,6199c7+50,3a84c3+51,419ad6+59,4bb8f0+71,3a8bc2+84,26558b+100;Blue+Gloss */
+    background: rgb(206,219,233); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(206,219,233,1) 0%, rgba(170,197,222,1) 17%, rgba(97,153,199,1) 50%, rgba(58,132,195,1) 51%, rgba(65,154,214,1) 59%, rgba(75,184,240,1) 71%, rgba(58,139,194,1) 84%, rgba(38,85,139,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    /* background-color: #33475b; */
+    margin: 0px;
+    border: 2px  solid black;
+    padding: 00px;
+}
+.aside{ 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    background-image: radial-gradient(#8cd9ec,#5a2ec2);
+    float: left;
+    width: 19%;
+    margin-top: 0px;
+    border: 2px  solid black;
+}
+
+.section1{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    background-image: radial-gradient(#ABCFF2, #1260AF);
+    float: left;
+    width: 75.5%;
+    margin-top: 0px;
+    border: 2px  solid black;
+}
+
+/* .nav{ background-color: #33475b; } */
