@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /* Ejericio 1
+Crear el código que dada una distancia determine el medio de transporte apropiado de acuerdo a las siguientes reglas:
+0 a 1000 metros = pie
+1000 a 10000 metros = bicicleta
+10000 a 30000 metros = colectivo
+30000 a 100000 metros = auto
++100000 = avion*/
+        const distancia = parseInt(prompt('Ingrese la distancia a recorrer en metros:', ''));
+        const transporte = ["pie", "bicicleta", "colectivo", "auto", "avion"]; 
+
+        if (distancia <= 1000)
+        { document.write(`Podés recorrer la distancia de ${distancia} mts a ${transporte[0]}`); }
+        else if (distancia > 1000 && distancia <= 10000)
+        { document.write(`Podés recorrer la distancia de ${distancia} mts en ${transporte[1]}`); }
+        else if (distancia > 10000 && distancia <= 30000)
+        { document.write(`Podés recorrer la distancia de ${distancia} mts en ${transporte[2]}`); }
+        else if (distancia > 30000 && distancia <= 100000)
+        { document.write(`Podés recorrer la distancia de ${distancia} mts en ${transporte[3]}`); }
+        else if (distancia > 100000)
+        { document.write(`Podés recorrer la distancia de ${distancia} mts en ${transporte[4]}`); }
+        else 
+        { document.write(`La distancia ingresada no es correcta`); }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

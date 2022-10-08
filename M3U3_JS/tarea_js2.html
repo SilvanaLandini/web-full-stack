@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*Ejericio 2
+Crear el código que reciba como parámetro un array de números y devuelva el mayor.*/
+    const cantidad = parseInt(prompt('Ingrese la cantidad de números que desea comparar:', ''));
+    const array = new Array(cantidad);
+    
+    for (let i=0; i<cantidad; i++)
+    {
+        array[i] = parseInt(prompt('Ingrese el '+(i+1)+'° número: ', ''));
+    }
+    var mayor = 0;
+    for (let i=0; i<cantidad; i++)
+    {
+        mayor = array[i] > mayor ? array[i] : mayor;
+    }
+    console.log(array)
+    document.write(`El número mayor del array ingresado es:${mayor}`);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
