@@ -1,0 +1,37 @@
+
+#contenedor {
+    width: 755px;
+    height: 252px;
+    margin: 5% 10%;
+    /* border: 2px  solid black; 
+    background-color: #ffffff; */
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content:center;
+}
+
+#uno {
+    background-color: #0077ff;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content:center;
+    border: 1px  solid black;
+}
+#dos {
+    background-color: #2600ff;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content:center;
+    border: 1px  solid black;
+}
+#tres {
+    background-color: #0a0661;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content:center;
+    border: 1px  solid black;
+}

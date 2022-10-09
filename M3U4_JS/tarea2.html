@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad N°2</title>
+</head>
+
+<body>
+    <div>
+        <h2>Actividad N°2: </h2>
+        <br>
+    </div>
+    <div id="contenedor">
+        <form action="/contar">
+            <p>Escribe un texto</p>
+            <p>
+                <textarea name="texto" cols="40" rows="10" id="mensaje"></textarea>
+            <div id="contador">0</div>
+            </p>
+        </form>
+    </div>
+
+    <script>
+        const mensaje = document.getElementById('mensaje');
+        const contador = document.getElementById('contador');
+
+        mensaje.addEventListener('input', function (e) {
+            const target = e.target;
+            const longitudAct = target.value.length;
+            contador.innerHTML = `${longitudAct}`;
+        });
+    </script>
+</body>
+
+</html>

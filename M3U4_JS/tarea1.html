@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad N°1</title>
+    <link rel="stylesheet" href="tarea1.css">
+</head>
+
+<body>
+    <div>
+        <h2>Actividad N°1: </h2>
+    </div>       
+    <div id = "contenedor" >
+        <div id = "uno" onclick="cuadrado1();">
+            <h1>Click para</h1>
+        </div>
+
+        <div id = "dos" onclick="cuadrado2();">
+            <h1>cambiar el</h1>
+        </div>
+
+        <div id = "tres" onclick="cuadrado3();">
+            <h1>color de fondo</h1>
+        </div>
+    </div>
+
+    <script>
+        function cuadrado1() {
+            const cuerpo = document.getElementsByTagName("body")[0];
+            cuerpo.style.backgroundColor = '#0077ff'; 
+        }
+
+        function cuadrado2() {
+            const cuerpo = document.getElementsByTagName("body")[0];
+            cuerpo.style.backgroundColor = '#2600ff'; 
+        }
+
+        function cuadrado3() {
+            const cuerpo = document.getElementsByTagName("body")[0];
+            cuerpo.style.backgroundColor = '#0a0661';
+        }
+    </script>
+
+    <link rel="stylesheet" href="tarea1.css">
+
+</body>
+
+</html>
